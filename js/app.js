@@ -207,7 +207,7 @@ function setDots(){
 
 let data = {
   "english": {
-    "links": ["Home" , "About Me", "Proyects", "Contact"],
+    "links": ["Home" , "About Me", "Proyects", "Contact", "Stackblitz"],
     "header title": "<span class='orange__letters'>Web </span>Developer",
     "header paragraph": `"I am Rafa, a web designer looking for new challenges"`,
     "resume" : "RESUME",
@@ -222,7 +222,7 @@ let data = {
     
   },
   "spanish":{
-    "links": ["Inicio" , "Sobre Mi" , "Proyectos", "Contacto"],
+    "links": ["Inicio" , "Sobre Mi" , "Proyectos", "Contacto", "Stackblitz"],
     "header title": "<span class='orange__letters'>Web</span> Developer",
     "header paragraph": `Soy Rafa un <span class="orange__letters">Desarrollador Frontend</span>
     en busca de nuevos retos`,
