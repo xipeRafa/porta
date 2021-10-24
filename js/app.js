@@ -217,7 +217,7 @@ let data = {
     <br><br>
     Dedicated to learning more every day in a world of constant change and progress.`,
     "technology title": "Technologies",
-    "proyects title": "Proyects",
+    "proyects title": "Projects",
     "footer message": "Contact Me",
     
   },
