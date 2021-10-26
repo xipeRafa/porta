@@ -283,7 +283,7 @@
               display: flex;
               height: 2.4em ;
               width: 22em;
-              border: 2.6px solid var(--blueGray);
+              border: 2.6px solid red;
               color: var(--white);
               justify-content: center;
               align-items: center;
@@ -294,6 +294,7 @@
               z-index: 1;
               transition: all .8s;
               letter-spacing: .6px;
+              background-color: rgba(255, 0, 0, 0.397);
           }
   
           .header__link:hover{
@@ -302,7 +303,7 @@
   
           .header__link::after{
               content: "";
-              background: #566e9b77;
+              background-color: rgba(255, 0, 0, 0.397);
               height: 100%;
               width: 100%;
               position: absolute;
