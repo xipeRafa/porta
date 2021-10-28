@@ -975,3 +975,7 @@
     border-radius: 50%;
     border: 1px solid white;
   }
+
+  .stackblitz{
+      color:#30dafc!important;
+  }
