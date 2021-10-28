@@ -52,10 +52,9 @@
   
   .header{
       position: relative;
-      height: 75vh;
+      height:100%;
       width: 100%;
       z-index: 9;
-      margin-bottom: 100px;
   }
   
   #particles-js{
@@ -145,6 +144,8 @@
       position: fixed!important;
       top: 0;
       z-index: 10;
+      background-color: var(--dark-grey);
+      padding-left: 56px!important;
   }
   
       .navbar__links{
@@ -153,7 +154,7 @@
           width: 100%;
           position: absolute;
           top: 0;
-          left: -100vw;
+          left: -140vw;
           box-shadow: inset -8px  0px var(--light-grey);
           padding-left: 8%;
           padding-top: 80px;
@@ -263,7 +264,6 @@
           height: calc(50vh - 80px );
           width: 100%;
           padding: 80px 8% 0;
-          margin-bottom: 80px;
           color: var(--white);
       }
   
@@ -282,7 +282,7 @@
           .header__link{
               display: flex;
               height: 2.4em ;
-              width: 22em;
+              width: 100%;
               border: 2.6px solid red;
               color: var(--white);
               justify-content: center;
@@ -338,7 +338,7 @@
               width: 40vh;
               max-width: 400px;
               border-radius: 50%;
-              border: 4px solid var(--blueGray);
+              border: 1.4px solid #30dafc86;
               position: absolute;
               top: calc( auto / 2);
               left: auto;
@@ -347,7 +347,7 @@
   
           .img{
               height: auto;
-              width: 90%;
+              width: 80%;
               position: absolute;
               z-index: 2;
           }
@@ -572,7 +572,21 @@
       }
   }
 
+  @media all and ( max-width: 766px ){
+    .header__circle{ 
+      display: none;
+    }
+    .img{
+      display: none;
+    }
+    .header__info{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
   
+    }
+}
   @media all and ( min-width: 768px ){
   
       .grid{
@@ -692,7 +706,9 @@
       }
   
       .img{
-          width: 100%;
+          width: 400px;
+          border-radius: 60%; 
+          border: 2px solid #30dafca9;
       }
   
       .header__circle{
