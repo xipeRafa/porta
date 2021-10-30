@@ -49,7 +49,7 @@ particlesJS({
         }
       },
       "size": {
-        "value": 3,
+        "value": 1,
         "random": true,
         "anim": {
           "enable": false,
@@ -60,10 +60,10 @@ particlesJS({
       },
       "line_linked": {
         "enable": true,
-        "distance": 150,
+        "distance": 200,
         "color": "#30dafc",
         "opacity": 0.4,
-        "width": 1
+        "width": 1.4
       },
       "move": {
         "enable": true,
@@ -207,9 +207,9 @@ function setDots(){
 
 let data = {
   "english": {
-    "links": ["Home" , "About Me", "Projects", "Contact", "Stackblitz"],
+    "links": ["Home" , "About Me", "Projects", "Contact", "StackBlitz"],
     "header title": "<span class='orange__letters'>Web </span>Developer",
-    "header paragraph": `"I am Rafa, a web designer looking for new challenges"`,
+    "header paragraph": `"I am Rafa, a Web Designer looking for new challenges"`,
     "resume" : "RESUME",
     "about title": "About me",
     "about me": `My work experience is 2 years like a Web Developer.
@@ -222,7 +222,7 @@ let data = {
     
   },
   "spanish":{
-    "links": ["Inicio" , "Sobre Mi" , "Proyectos", "Contacto", "Stackblitz"],
+    "links": ["Inicio" , "Sobre Mi" , "Proyectos", "Contacto", "StackBlitz"],
     "header title": "<span class='orange__letters'>Web</span> Developer",
     "header paragraph": `Soy Rafa un <span class="orange__letters">Desarrollador Frontend</span>
     en busca de nuevos retos`,
@@ -262,8 +262,6 @@ function traduccion( ){
       elem.textContent = data[ language ].links[index];
     });
 
-    console.log(data);
-
     header_title.innerHTML = data[ language ][ "header title" ];
     header_paragraph.innerHTML = data[ language ][ "header paragraph" ];
     header_link.textContent = data[ language ][ "resume" ];
@@ -271,5 +269,4 @@ function traduccion( ){
     about_me.innerHTML = data[ language ][ "about me" ];
     tecnology_title.textContent = data[ language ][ "technology title"];
     proyects_title.textContent = data[ language ][ "proyects title" ];
-    footer_message.textContent = data[ language ][ "footer message" ];
 }
