@@ -210,7 +210,7 @@ let data = {
     "links": ["Home" , "About Me", "Projects", "Contact", "StackBlitz"],
     "header title": "<span class='orange__letters'>Web </span>Developer",
     "header paragraph": `"I am Rafa, a Web Designer looking for new challenges"`,
-    "resume" : "RESUME",
+    "resume" : "RESUME CV",
     "about title": "About me",
     "about me": `My work experience is 2 years like a Web Developer.
     helping developers and designers both professionals and students.
