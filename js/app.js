@@ -212,7 +212,7 @@ let data = {
     "header paragraph": `"I am Rafa, a Web Designer looking for new challenges"`,
     "resume" : "RESUME CV",
     "about title": "About me",
-    "about me": `My work experience is 2 years like a Web Developer.
+    "about me": `My work experience is 4 years like a Web Developer.
     helping developers and designers both professionals and students.
     <br><br>
     Dedicated to learning more every day in a world of constant change and progress.`,
@@ -228,7 +228,7 @@ let data = {
     en busca de nuevos retos`,
     "resume": "CURRICULUM",
     "about title": "Sobre mi",
-    "about me": `Mi experiencia laboral es de 2 años como Desarrollador Web.
+    "about me": `Mi experiencia laboral es de 4 años como Desarrollador Web.
     ayudando a desarrolladores y diseñadores tanto como Profesionales y Estudiantes.
     <br> <br>
     Dedicada a aprender más cada día en un mundo en constante cambio y progreso.`,
