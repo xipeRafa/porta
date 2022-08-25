@@ -49,12 +49,15 @@
   body::-webkit-scrollbar-track {
       background-color: var(--dark-grey);
   }
-  
+  .b{
+    border: 1px solid red;
+  }
   .header{
       position: relative;
       height:100%;
       width: 100%;
       z-index: 9;
+
   }
   
   #particles-js{
@@ -143,6 +146,7 @@
       align-items: center;
       position: fixed!important;
       top: 0;
+      left: 0;
       z-index: 10;
       background-color: var(--dark-grey);
       padding-left: 56px!important;
@@ -580,7 +584,7 @@
   /* 320 480 600 768 1024 1200 */
   
   @media all and ( min-width: 320px ){
-  
+
   }
   
   @media all and ( min-width: 480px ){
