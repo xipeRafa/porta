@@ -6,8 +6,9 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="css/favicon.svg">
 </head>
-<body id="header">
-    <div id="particles-js"></div>
+<body>
+    <div id="header"></div>
+    <div id="particles-js" ></div>
     <div class="loader">
         <div class="rings">
             <div class="ring one">
@@ -20,9 +21,6 @@
     </div>
 
     <header class="header grid">
-
-
-
         <nav class="navbar ">
             <ul class="navbar__links">
                 <li class="navbar__link active"><a href="#header">Home</a></li>
@@ -47,17 +45,17 @@
         </div>
 
 
-        <div class="header__info">
+        <aside class="header__info">
             <h1 class="header__title">Web <span class="orange__letters">Developer</span></h1>
             <p class="header__paragraph">
                 "I am Rafa, a Web Designer looking for new challenges"
             </p>
             <a href="./cv.html" target="_blank" class="header__link">RESUME CV</a>
-        </div>
-        <div class="header__img">
+        </aside>
+        <figure class="header__img">
             <div class="header__circle"></div>
             <img src="assets/pc2.png" alt="an animated pc" class="img">
-        </div>
+        </figure>
         <a href="#about" class="header__link--relative">
                 <img src="assets\flecha-hacia-abajo.svg" alt="" class="header__link--img">
         </a>
@@ -68,119 +66,100 @@
 
 
 
-    <section class="about" id="about">
-        <div class="about__container grid">
+    <section class="about about__container grid" id="about">
+
             <h2 class="about__title">About Me</h2>
 
             <p class="about__me">
-                My work experience is 4 years like a Web Developer.
+                My work experience is 5 years like a Web Developer.
                 helping developers and designers both professionals and students.
                 <br><br>
                 Dedicated to learning more every day in a world of constant change and progress.
-           
             </p>
         
           
-            <div class="about__img">
+            <figure class="about__img">
                 <img src="assets/yo.png" alt="a developer draw">
+            </figure>
+
+            <h3 class="about__tecnology--title">
+                Technologies
+            </h3>
+
+            <figure class="carousel">
+                    <img src="assets/react-1.svg" alt="">
+                    <img src="assets/MongoDB-Icon-logo.svg" alt="">
+                    <img src="assets\html5-logo.svg" alt="">
+                    <img src="assets\css-logo.svg" alt="">
+                    <img src="assets\js-logo.svg" alt="">
+                    <img src="assets\git-logo.svg" alt="">
+                    <img src="assets/GraphQL_Logo.svg.png" alt="">
+                    <img src="assets/e.png" alt="">
+            </figure>
+
+            <div class="keypad">
+                <figure class="right"><img src="assets\right-chevron.svg" alt=""></figure>
+                <dfigure class="left"><img src="assets\left-chevron.svg" alt=""></figure>
             </div>
 
-            <h3 class="about__tecnology--title">Technologies</h3>
-            <div class="carousel">
-                <div class="skill">
-                    <img src="assets/react-1.svg" alt="">
-                </div>
-                <div class="skill">
-                    <img src="assets/nextjs.png" alt="">
-                </div>
-                <div class="skill">
-                    <img src="assets/MongoDB-Icon-logo.svg" alt="">
-                </div>
-                <div class="skill">
-                    <img src="assets\html5-logo.svg" alt="">
-                </div>
-                <div class="skill">
-                    <img src="assets\css-logo.svg" alt="">
-                </div>
-                <div class="skill">
-                    <img src="assets\js-logo.svg" alt="">
-                </div>
-                <div class="skill">
-                    <img src="assets\git-logo.svg" alt="">
-                </div>
-                <div class="skill">
-                    <img src="assets/GraphQL_Logo.svg.png" alt="">
-                </div>
-                <div class="skill">
-                    <img src="assets/e.png" alt="">
-                </div>
-            </div>
-            <div class="keypad">
-                <div class="right"><img src="assets\right-chevron.svg" alt=""></div>
-                <div class="left"><img src="assets\left-chevron.svg" alt=""></div>
-            </div>
-            <div class="carousel__dots">
-            </div>
-        </div>
+            <figure class="carousel__dots">
+            </figure>
     </section>
-    <section class="proyects" id="proyects">
-        <div class="proyects__container grid">
+
+
+    <section class="proyects proyects__container grid" id="proyects">        
             <h2 class="proyects__title">Projects</h2>
-            <div class="proyect">
+            <figure class="proyect">
                 <img src="assets/oceantigers.png" alt="" class="proyect__img--mobile">
                 <img src="assets/oceantigers-desktop.png" alt="" class="proyect__img">
-            </div>
-            <div class="proyect">
+            </figure>
+            <figure class="proyect">
                 <img src="assets/cabobash.png" alt="" class="proyect__img--mobile">
                 <img src="assets/cabobash.png" alt="" class="proyect__img">
                
-            </div>
-            <div class="proyect">
+            </figure>
+            <figure class="proyect">
                 <img src="assets/totalwine.png" alt="" class="proyect__img--mobile">
                 <img src="assets/totalwine-desktop.png" alt="" class="proyect__img">
-            </div>
-            <div class="proyect">
+            </figure>
+            <figure class="proyect">
                 <img src="assets/ui-sistem-mobile.png" alt="" class="proyect__img--mobile">
                 <img src="assets/ui-sistem.png" alt="" class="proyect__img">
-            </div>
-            <div class="proyect">
+            </figure>
+            <figure class="proyect">
                 <img src="assets/reachart.png" alt="" class="proyect__img--mobile">
                 <img src="assets/reachart.png" alt="" class="proyect__img">
-            </div>
-        </div>
+            </figure>
     </section>
 
-    <section class="proyects" id="proyects">
-        <div class="proyects__container2">
-            <div class="proyect2">
+    <section class="proyects proyects__container2" id="proyects">
+            <figure class="proyect2">
                 <img src="assets/hillo/gym-admin.png" alt="" class="proyect__img--mobile">
                 <img src="assets/hillo/gym-admin.png" alt="" class="proyect__img">
-            </div>
-            <div class="proyect2">
+            </figure>
+            <figure class="proyect2">
                 <img src="assets/hillo/store.png" alt="" class="proyect__img--mobile">
                 <img src="assets/hillo/store.png" alt="" class="proyect__img">
-            </div>
-            <div class="proyect2">
+            </figure>
+            <figure class="proyect2">
                 <img src="assets/hillo/lista-oxxo.png" alt="" class="proyect__img--mobile">
                 <img src="assets/hillo/lista-oxxo.png" alt="" class="proyect__img">
-            </div>
-            <div class="proyect2">
+            </figure>
+            <figure class="proyect2">
                 <img src="assets/hillo/taxisAdmin.png" alt="" class="proyect__img--mobile">
                 <img src="assets/hillo/taxisAdmin.png" alt="" class="proyect__img">
-            </div>
-            <div class="proyect2">
+            </figure>
+            <figure class="proyect2">
                 <img src="assets/hillo/oxxo-pedidos.png" alt="" class="proyect__img--mobile">
                 <img src="assets/hillo/oxxo-pedidos.png" alt="" class="proyect__img">
-            </div>
-            <div class="proyect2">
+            </figure>
+            <figure class="proyect2">
                 <img src="assets/hillo/taller-admin.png" alt="" class="proyect__img--mobile">
                 <img src="assets/hillo/taller-admin.png" alt="" class="proyect__img">
-            </div>
-        </div>
+            </figure>
     </section>
 
-    <footer class="footer">
-        <div class="footer__container">
+    <footer class="footer footer__container">
             <div class="footer__social" id="contact">
                 <a href="https://www.instagram.com/rafa110587/" target="__blank" class="footer__link">
                     <img src="assets/Instagram_logo_2016.svg.png" alt="" class="footer__social--icon">
@@ -192,7 +171,6 @@
                     <img src="assets/github.png" alt="" class="footer__social--icon github" >
                 </a> 
             </div>
-        </div>
     </footer>
     <script src="js/particles.min.js"></script>
     <script src="js/app.js"></script>

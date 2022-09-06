@@ -49,9 +49,7 @@
   body::-webkit-scrollbar-track {
       background-color: var(--dark-grey);
   }
-  .b{
-    border: 1px solid red;
-  }
+
   .header{
       position: relative;
       height:100%;
@@ -418,19 +416,18 @@
               display: none;
           }
   
-          .skill{
+          .carousel > img {
               height: 34vh;
-              width: 100%;
+              width: 50%;
               flex-shrink: 0;
               display: flex;
               justify-content: center;
               align-items: center;
-            
           }
   
-              .skill > img{
+              .carrousel > img{
                   height: 80%;
-                  width: auto;
+                  width: 50%;
               }
   
       .carousel__dots{
@@ -485,7 +482,18 @@
           }
   
   /* -----------proyectos----------------------------- */
-  
+
+  /*
+
+  ijijijijij
+  * important
+  todo:todo
+  ! alert alerta maxima
+  ?  pregunta
+
+  */
+
+
   .proyects{
       background-color: var(--dark-grey);
   }
@@ -864,11 +872,11 @@
           left: -3em;
       }
   
-      .skill{
+      .carrousel > img{
           width: calc( 100% / 3);
       }
   
-      .skill > img {
+      .carrousel > img {
           width: 70%;
           height: auto;
       }
@@ -1044,4 +1052,6 @@
     }
 
  } 
-
+.b{
+    border: 1px solid red;
+}
